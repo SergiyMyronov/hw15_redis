@@ -10,6 +10,10 @@ The main features that have currently been implemented are:
     There are models for cities, suppliers, products and customers.
     Users can view list and detail information for models products, suppliers and customers.
     Users cen view customers with related products.
+    Pages: 
+        http://127.0.0.1:8000/redis_cache/cust/
+        http://127.0.0.1:8000/redis_cache/prod/
+    are cached for 20 seconds.
 
     Admin users can manage models. 
 
