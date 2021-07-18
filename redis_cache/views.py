@@ -78,7 +78,7 @@ class SupplierDeleteView(LoginRequiredMixin, DeleteView):
 
 
 class CustomerListView(ListView):
-    queryset = Customer.objects.annotate(cnt=Count('products')).prefetch_related('products')
+    queryset = Customer.objects.order_by('name').annotate(cnt=Count('products')).prefetch_related('products')
     paginate_by = 2
 
 
