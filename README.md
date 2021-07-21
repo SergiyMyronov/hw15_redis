@@ -1,9 +1,9 @@
-Homework 14
-Base views demonstration
+Homework 15
+Django redis cache demonstration
 
 Overview
 
-This web application demonstrates some of base-views.
+This web application demonstrates Django redis cache.
 
 The main features that have currently been implemented are:
 
